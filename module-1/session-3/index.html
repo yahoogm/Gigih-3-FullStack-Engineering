@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="fa fa-home"></span>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="fa fa-search"></span>
+              <span>Search</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <div class="your-library">
+                <div>
+                  <span class="fa fas fa-book"></span>
+                  <span>Your Library</span>
+                </div>
+                <span class="fa fas fa-plus"></span>
+              </div>
+            </a>
+          </li>
+
+          <div class="child-library">
+            <div>
+              <h4>Create your first playlist</h4>
+              <p>it's easy, we'll help you</p>
+            </div>
+
+            <button>Create playlist</button>
+          </div>
+
+          <div class="child-library">
+            <div>
+              <h4>let's find some podcast to follow</h4>
+              <p>we'll keep you update on new episodes</p>
+            </div>
+
+            <button>Browser podcast</button>
+          </div>
+
+          <div class="policy">
+            <p>Legal</p>
+            <p>Privacy Center</p>
+            <p>Privacy Policy</p>
+            <p>Cookies</p>
+            <p>About ads</p>
+            <p>Accessibility</p>
+            <p>Cookies</p>
+          </div>
+
+          <button class="subtitle">
+            <span class="fa fa-circle-o"></span>English
+          </button>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="child-main-container">
+        <div class="topbar">
+          <div class="prev-next-buttons">
+            <button type="button" class="fa fas fa-chevron-left"></button>
+            <button type="button" class="fa fas fa-chevron-right"></button>
+          </div>
+
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="#">Sign Up</a>
+              </li>
+            </ul>
+            <button type="button">Log In</button>
+          </div>
+        </div>
+
+        <div class="spotify-playlists-container">
+          <div class="spotify-playlists">
+            <div class="child-playlist">
+              <h2>All Songs</h2>
+              <h3>Show all</h3>
+            </div>
+
+            <div class="list">
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Today's Top Hits</h4>
+                <p>Rema & Selena Gomez are on top of the...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>RapCaviar</h4>
+                <p>New Music from Lil Baby, Juice WRLD an...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Viva Latino</h4>
+                <p>Today's top Latin hits elevando nuestra...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Mega Hit Mix</h4>
+                <p>A mega mix of 75 favorites from the last...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>All out 80s</h4>
+                <p>The biggest songs of the 1090s.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotify-playlists">
+            <div class="child-playlist">
+              <h2>Recently Played</h2>
+              <h3>Show all</h3>
+            </div>
+            <div class="list">
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>chill lofi study beats</h4>
+                <p>The perfect study beats, twenty four...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Coding Mode</h4>
+                <p>Dedicated to all the programmers out there.</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Focus Flow</h4>
+                <p>Uptempo instrumental hip hop beats.</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Calm Before The Storm</h4>
+                <p>Calm before the storm music.</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Beats to think to</h4>
+                <p>Focus with deep techno and tech house.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="spotify-playlists">
+            <div class="child-playlist">
+              <h2>Mood</h2>
+              <h3>Show all</h3>
+            </div>
+            <div class="list">
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1621535484902-f946de404eb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Mood Booster</h4>
+                <p>Get happy with today's dose of feel-good...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Feelin' Good</h4>
+                <p>Feel good with this positively timeless...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Chill Tracks</h4>
+                <p>Softer kinda dance</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>Feel-Good Indie Rock</h4>
+                <p>The best indie rock vibes - classic and...</p>
+              </div>
+
+              <div class="item">
+                <img
+                  src="https://images.unsplash.com/photo-1627773725585-87dd714c62e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFwcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                />
+                <div class="play">
+                  <span class="fa fa-play"></span>
+                </div>
+                <h4>idk.</h4>
+                <p>idk.</p>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview">
+      <div class="child-preview">
+        <div class="text">
+          <h6>Preview of Spotify</h6>
+          <p>
+            Sign up to get unlimited songs and podcasts with occasional ads. No
+            credit card needed.
+          </p>
+        </div>
+        <div class="button">
+          <button type="button">Sign up free</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
