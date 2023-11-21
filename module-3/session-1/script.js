@@ -51,6 +51,11 @@ db.songs.insertMany([
     name: 'System Of A Down',
     album: 'BYOB',
   },
+  {
+    title: 'BYOB',
+    name: 'System Of A Down',
+    album: 'BYOB',
+  },
 ]);
 
 db.artist.insertMany([
